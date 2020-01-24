@@ -26,22 +26,6 @@ body {
     position: relative;
     
 }
-/* 
-footer {
-    width: 100%;
-    background-color: black;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    display: inline-block;
-    justify-content: space-around;
-    text-align: center;
-} */
-
-/* Fazer Transição com a Opacidade */
-
-
-
 
 .nothing {
     width: 100%;
@@ -63,7 +47,7 @@ a {
     box-sizing: border-box;
     font-family: Digestive;
     font-size: 8em;
-    color: black;
+    color: rgba(0, 0, 0, 0);
     -webkit-text-stroke: 0.05rem white;
     text-decoration: none;
     line-height: 5rem;
@@ -103,80 +87,80 @@ a:hover {
 }
 
 .one::before {
-    top: 40px;
-    left: 0px;
+    top: 5vh;
+    left: 10vw;
     width: 400px;
     height: 300px;
     background-color: blue;
 }
 
 .two::before {
-    top: 40px;
-    left: 0px;
+    top: 20vh;
+    right: 10vw;
     width: 400px;
     height: 300px;
     background-color: blue;
 }
 
 .three::before {
-    top: 40px;
-    left: 0px;
+    top: 5vh;
+    right: 30vw;
     width: 400px;
     height: 300px;
     background-color: blue;
 }
 
 .four::before {
-    top: 40px;
-    left: 0px;
+    top: 40vh;
+    left: 5vw;
     width: 400px;
     height: 300px;
     background-color: blue;
 }
 
 .five::before {
-    top: 40px;
-    left: 0px;
+    top: 5vh;
+    left: 0vw;
     width: 400px;
     height: 300px;
     background-color: blue;
 }
 
 .six::before {
-    top: 40px;
-    left: 0px;
+    top: 45vh;
+    left: 60vw;
     width: 400px;
     height: 300px;
     background-color: blue;
 }
 
 .seven::before {
-    top: 40px;
-    left: 0px;
+    top: 35vh;
+    left: 33vw;
     width: 400px;
     height: 300px;
     background-color: blue;
 }
 
 .eight::before {
-    top: 40px;
-    left: 0px;
+    top: 0vh;
+    right: 5vw;
     width: 400px;
     height: 300px;
     background-color: blue;
 }
 
 .nine::before {
-    top: 40px;
-    left: 0px;
+    top: 50vh;
+    left: 10vw;
     width: 400px;
     height: 300px;
     background-color: blue;
 }
 
 .ten::before {
-    top: 40px;
-    left: 0px;
+    top: 15vh;
+    left: 40vw;
     width: 400px;
     height: 300px;
     background-color: blue;
