@@ -198,7 +198,7 @@ a:hover, a:active {
 
 
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:300px) {
 
     #main-container {
         width: 100%;
