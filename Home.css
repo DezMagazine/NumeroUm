@@ -12,6 +12,17 @@
     100% {background-image: url(images/background/6.svg);}
 }
 
+@keyframes R-background {
+    0% {background-image: url(images/background/R1.svg);}
+    20% {background-image: url(images/background/R2.svg);}
+    40% {background-image: url(images/background/R3.svg);}
+    60% {background-image: url(images/background/R4.svg);}
+    80% {background-image: url(images/background/R5.svg);}
+    100% {background-image: url(images/background/R6.svg);}
+}
+
+
+
 html, body {
     margin: 0; 
     height: 100%; 
@@ -33,6 +44,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     animation: background 3000ms steps(1) infinite;
+
     
 }
 
@@ -51,7 +63,7 @@ body {
 
 }
 
-a {
+a, a:visited {
     padding: 0rem 1rem 0rem 1rem;
     box-sizing: border-box;
     font-family: Digestive;
@@ -62,7 +74,7 @@ a {
     line-height: 5rem;
 } 
 
-a:hover {
+a:hover, a:active {
     color: white;
 }
 
@@ -173,4 +185,44 @@ a:hover {
     width: 400px;
     height: 300px;
     background-color: blue;
+}
+
+
+
+
+
+
+/*         MEDIA QUERY       */
+
+
+
+
+
+@media only screen and (max-width:400px) {
+
+    #main-container {
+        width: 100%;
+        height: 100%;
+        background-position: left;
+        display: flex;
+        animation: R-background 3000ms steps(1) infinite; 
+    }
+
+    .nothing {
+        width: 70%;
+        height: 100%;
+    }
+    
+    .list {
+        width: 20%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    a, a:visited {
+        padding: 0rem 0rem 0rem 4rem;
+        font-size: 5em;
+        line-height: 4rem;
+    } 
+
 }
