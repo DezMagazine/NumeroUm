@@ -27,249 +27,6 @@
 }
 
 
-@media only screen and (max-width:300px) {
-
-
-    html, body {
-        margin: 0; 
-        height: auto; 
-        overflow: auto;
-    }
-    
-    body {
-        margin: 0px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        background-color: black;
-        font-family: Sporting;
-        color: white;
-    }
-
-
-
-    #main-container {
-        width: 100%;
-        height: 100%;
-        background-position: left;
-        display: flex;
-        animation: R-background 3000ms steps(1) infinite; 
-        position: relative;
-    }
-
-    
-    .list {
-        width: 1.2rem;
-        position: absolute;
-        left: 0px;
-        height: 100vh;
-        align-self: flex-start;
-        flex-direction: column;
-        /* background-color: red; */
-    }
-
-    a, a:visited {
-        padding: 0rem 0rem 0rem 4rem;
-        font-size: 7vh;
-        line-height: 8vh;
-    } 
-
-    .one {
-        margin-top: 5rem;
-    }
-
-
-  /*              ESTRUTURA                */
-
-
-.home {
-    position: fixed;
-    width: 100%;
-    height: 10vh;
-    animation: home 3000ms steps(1) infinite;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    align-self: center;
-    right: 0px;
-    background-color: black;
-    z-index: 20;
-}
-
-.contents {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-top: 20vw;
-    margin-left: 5rem;
-}
-
-
-
-.home:hover {
-    animation: home 3000ms steps(1) infinite;
-}
-
-.home:active {
-    animation: full_home 3000ms steps(1) infinite;
-}
-
-
-.sinopse {
-    margin-top: 2rem;
-    margin-left: 0rem;
-    font-size: 0.8rem;
-    line-height: 1.3rem;
-    width: 70vw;
-}
-
-.sinopse2 {
-    margin-top: 2rem;
-    margin-left: 0rem;
-    font-size: 0.8rem;
-    width: 70vw;
-}
-
-.title1, 
-.title2, 
-.title3, 
-.title4, 
-.title5, 
-.title6, 
-.title7, 
-.title8, 
-.title9, 
-.title10 {
-    display: none;
-
-}
-
-
-.m-title {
-    display: block;
-    margin-top: 1.5rem;
-    font-family: Digestive;
-    font-size: 13vw;
-    letter-spacing: 0.05rem;
-    margin-left: 0rem;
-    text-transform: lowercase;
-}
-
-
-
-/*              IMAGENS          */
-
-
-
-
-.imagens {
-    width: 58vw;
-    height: auto;
-    margin-top: 1rem;
-    position: relative;
-    padding: 0rem;
-    box-sizing: border-box;
-    margin-bottom: 3rem;
-}
-
-/*          IMG 1           */
-
-
-
-
-.img1-1, 
-.img1-2, 
-.img1-3, 
-.img1-4, 
-.img1-5, 
-.img1-6, 
-.img1-7, 
-.img1-8, 
-.img1-9, 
-.img1-10, 
-.img1-11, 
-.img1-12, 
-.img1-13 {
-    position: relative;
-    width: 100%;
-    height: auto;
-    top: 0vw;
-    bottom: 0vw;
-    left: 0vw;
-    right: 0vw;
-    z-index: 0;
-    transition: width 200ms ease-in-out;
-}
-
-.img1-1:hover, 
-.img1-2:hover, 
-.img1-3:hover, 
-.img1-4:hover, 
-.img1-5:hover, 
-.img1-6:hover, 
-.img1-7:hover, 
-.img1-8:hover, 
-.img1-9:hover, 
-.img1-10:hover, 
-.img1-11:hover, 
-.img1-12:hover, 
-.img1-13:hover {
-    width: 100%;
-    z-index: 0;
-}
-
-
-/*          IMG 2           */
-
-
-.img2-1, 
-.img2-2, 
-.img2-3, 
-.img2-4, 
-.img2-5, 
-.img2-6, 
-.img2-7, 
-.img2-8, 
-.img2-9, 
-.img2-10, 
-.img2-11, 
-.img2-12, 
-.img2-13 {
-    position: relative;
-    width: 100%;
-    height: auto;
-    top: 0vw;
-    bottom: 0vw;
-    left: 0vw;
-    right: 0vw;
-    z-index: 0;
-}
-
-.img2-1:hover, 
-.img2-2:hover, 
-.img2-3:hover, 
-.img2-4:hover, 
-.img2-5:hover, 
-.img2-6:hover, 
-.img2-7:hover, 
-.img2-8:hover, 
-.img2-9:hover, 
-.img2-10:hover, 
-.img2-11:hover, 
-.img2-12:hover, 
-.img2-13:hover {
-    width: 100%;
-    z-index: 0;
-}
-
-}
-
-
-
-
-
 html, body {
     margin: 0; 
     height: 100%; 
@@ -684,4 +441,284 @@ a:hover, a:active {
 .selected {
     color: white; 
     -webkit-text-stroke: 0rem white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*         MEDIA QUERY       */
+
+
+
+
+
+@media only screen and (max-width:400px) {
+
+
+    html, body {
+        margin: 0; 
+        height: auto; 
+        overflow: auto;
+    }
+    
+    body {
+        margin: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: black;
+        font-family: Sporting;
+        color: white;
+    }
+
+
+
+    #main-container {
+        width: 100%;
+        height: 100%;
+        background-position: left;
+        display: flex;
+        animation: R-background 3000ms steps(1) infinite; 
+        position: relative;
+    }
+
+    
+    .list {
+        width: 1.2rem;
+        position: absolute;
+        left: 0px;
+        height: 100vh;
+        align-self: flex-start;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+
+    a, a:visited {
+        padding: 0rem 0rem 0rem 4rem;
+        font-size: 7vh;
+        line-height: 8vh;
+    } 
+
+    .one {
+        margin-top: 5rem;
+    }
+
+
+  /*              ESTRUTURA                */
+
+
+.home {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    animation: home 3000ms steps(1) infinite;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    align-self: center;
+    right: 0px;
+    background-color: black;
+    z-index: 20;
+}
+
+.contents {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20vw;
+    margin-left: 5rem;
+}
+
+
+
+.home:hover {
+    animation: home 3000ms steps(1) infinite;
+}
+
+.home:active {
+    animation: full_home 3000ms steps(1) infinite;
+}
+
+
+.sinopse {
+    margin-top: 2rem;
+    margin-left: 0rem;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    width: 70vw;
+}
+
+.sinopse2 {
+    margin-top: 2rem;
+    margin-left: 0rem;
+    font-size: 0.8rem;
+    width: 70vw;
+}
+
+.title1, 
+.title2, 
+.title3, 
+.title4, 
+.title5, 
+.title6, 
+.title7, 
+.title8, 
+.title9, 
+.title10 {
+    display: none;
+
+}
+
+
+.m-title {
+    display: block;
+    margin-top: 1.5rem;
+    font-family: Digestive;
+    font-size: 13vw;
+    letter-spacing: 0.05rem;
+    margin-left: 0rem;
+    text-transform: lowercase;
+}
+
+
+
+/*              IMAGENS          */
+
+
+
+
+.imagens {
+    width: 58vw;
+    height: auto;
+    margin-top: 1rem;
+    position: relative;
+    padding: 0rem;
+    box-sizing: border-box;
+    margin-bottom: 3rem;
+}
+
+/*          IMG 1           */
+
+
+
+
+.img1-1, 
+.img1-2, 
+.img1-3, 
+.img1-4, 
+.img1-5, 
+.img1-6, 
+.img1-7, 
+.img1-8, 
+.img1-9, 
+.img1-10, 
+.img1-11, 
+.img1-12, 
+.img1-13 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0vw;
+    bottom: 0vw;
+    left: 0vw;
+    right: 0vw;
+    z-index: 0;
+    transition: width 200ms ease-in-out;
+}
+
+.img1-1:hover, 
+.img1-2:hover, 
+.img1-3:hover, 
+.img1-4:hover, 
+.img1-5:hover, 
+.img1-6:hover, 
+.img1-7:hover, 
+.img1-8:hover, 
+.img1-9:hover, 
+.img1-10:hover, 
+.img1-11:hover, 
+.img1-12:hover, 
+.img1-13:hover {
+    width: 100%;
+    z-index: 0;
+}
+
+
+/*          IMG 2           */
+
+
+.img2-1, 
+.img2-2, 
+.img2-3, 
+.img2-4, 
+.img2-5, 
+.img2-6, 
+.img2-7, 
+.img2-8, 
+.img2-9, 
+.img2-10, 
+.img2-11, 
+.img2-12, 
+.img2-13 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0vw;
+    bottom: 0vw;
+    left: 0vw;
+    right: 0vw;
+    z-index: 0;
+}
+
+.img2-1:hover, 
+.img2-2:hover, 
+.img2-3:hover, 
+.img2-4:hover, 
+.img2-5:hover, 
+.img2-6:hover, 
+.img2-7:hover, 
+.img2-8:hover, 
+.img2-9:hover, 
+.img2-10:hover, 
+.img2-11:hover, 
+.img2-12:hover, 
+.img2-13:hover {
+    width: 100%;
+    z-index: 0;
+}
+
+
 }
