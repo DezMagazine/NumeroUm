@@ -28,6 +28,53 @@
 }
 
 
+@media only screen and (max-width:400px) {
+
+    #main-container {
+        width: 100%;
+        height: 100%;
+        background-position: left;
+        display: flex;
+        animation: R-background 3000ms steps(1) infinite; 
+    }
+
+    .nothing {
+        width: 70%;
+        height: 100%;
+    }
+    
+    .list {
+        width: 20%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    a, a:visited {
+        padding: 0rem 0rem 0rem 4rem;
+        font-size: 5em;
+        line-height: 4rem;
+    } 
+
+
+    .one:hover::before, 
+    .two:hover::before, 
+    .three:hover::before, 
+    .four:hover::before, 
+    .five:hover::before, 
+    .six:hover::before, 
+    .seven:hover::before, 
+    .eight:hover::before, 
+    .nine:hover::before, 
+    .ten:hover::before {
+        transform: scale(0);
+    }
+
+}
+
+
+
+
+
 
 html, body {
     margin: 0; 
@@ -205,58 +252,3 @@ a:hover, a:active {
 }
 
 
-
-
-
-
-/*         MEDIA QUERY       */
-
-
-
-
-
-@media only screen and (max-width:400px) {
-
-    #main-container {
-        width: 100%;
-        height: 100%;
-        background-position: left;
-        display: flex;
-        animation: R-background 3000ms steps(1) infinite; 
-    }
-
-    .nothing {
-        width: 70%;
-        height: 100%;
-    }
-    
-    .list {
-        width: 20%;
-        height: 100%;
-        flex-direction: column;
-    }
-
-    a, a:visited {
-        padding: 0rem 0rem 0rem 4rem;
-        font-size: 5em;
-        line-height: 4rem;
-    } 
-
-
-    .one:hover::before, 
-    .two:hover::before, 
-    .three:hover::before, 
-    .four:hover::before, 
-    .five:hover::before, 
-    .six:hover::before, 
-    .seven:hover::before, 
-    .eight:hover::before, 
-    .nine:hover::before, 
-    .ten:hover::before {
-        transform: scale(0);
-}
-
-
-
-
-}
